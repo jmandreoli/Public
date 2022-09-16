@@ -1,7 +1,7 @@
 # The purpose of this snippet is to show that the "key" bias in pytorch multi-head attention is redundant
 # Consequences:
 # * memory space for that bias is wasted
-# * torch spends time computing operations involving this bias and propagating null gradients back
+# * torch spends time computing operations involving that bias and propagating null gradients back
 # Probably not significant, but still could be avoided
 
 import torch
